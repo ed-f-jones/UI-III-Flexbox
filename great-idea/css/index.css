@@ -53,7 +53,8 @@ table {
 }
 
 html, body {
-    height: 100%;
+	margin:0;
+	padding: 0;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -64,3 +65,71 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: auto;
+	padding: 10px;
+}
+.row-one{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+.row-two{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+.row-three{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+.row-four{
+	display: flex;
+	justify-content: space-between;
+}
+.body{
+	margin: auto;
+	width: 67%;
+	padding: 10px;
+}
+.content-area{
+	border: 1px solid black;
+	padding:10px;
+	width: 45%;
+}
+.content-area2{
+	padding: 5px;
+	width: 50%;
+}
+.content-area3{
+	width:  45%;
+	padding: 5px;	
+}
+article{
+	padding: 10px;
+}
+.services-info-img{
+	width: 91%;
+	margin-left: 40px;
+}
+.center-text{
+	text-align: center;
+}
+.list{
+list-style: disc;
+margin-left: 20px;
+color: black;
+line-height: 30px;
+}
+.nav{
+	word-spacing: 60px;
+}
+button{
+	margin-left: 12px;
+}
